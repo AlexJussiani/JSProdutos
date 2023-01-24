@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JS.Produtos.API", "JS.Produtos.API\JS.Produtos.API.csproj", "{A7B1A312-08CB-45D5-A60C-BDFF95306AF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JS.Produtos.Domain", "JS.Produtos.Domain\JS.Produtos.Domain.csproj", "{48FC3843-6F5F-4803-910F-C15ABAF8E993}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JS.Produtos.Infra", "JS.Produtos.Infra\JS.Produtos.Infra.csproj", "{1CD04784-E3CD-4A4C-A03F-BF93B525459E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "building blocks", "building blocks", "{C0CE82A3-5CF5-4725-B781-3A2F4890C6CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JS.Core", "building blocks\JS.Core\JS.Core.csproj", "{C62991FB-9DF6-4287-A653-EA6711B2012C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JS.WebAPI.Core", "building blocks\JS.WebAPI.Core\JS.WebAPI.Core.csproj", "{EBC8835C-32DF-4F2E-9FE6-7CE66FE8A88C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JS.EventSourcing", "building blocks\JS.EventSourcing\JS.EventSourcing.csproj", "{E4F2BBB8-0766-47D1-9AB6-E52291CCFBCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7B1A312-08CB-45D5-A60C-BDFF95306AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B1A312-08CB-45D5-A60C-BDFF95306AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B1A312-08CB-45D5-A60C-BDFF95306AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B1A312-08CB-45D5-A60C-BDFF95306AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48FC3843-6F5F-4803-910F-C15ABAF8E993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FC3843-6F5F-4803-910F-C15ABAF8E993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FC3843-6F5F-4803-910F-C15ABAF8E993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FC3843-6F5F-4803-910F-C15ABAF8E993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CD04784-E3CD-4A4C-A03F-BF93B525459E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD04784-E3CD-4A4C-A03F-BF93B525459E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD04784-E3CD-4A4C-A03F-BF93B525459E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD04784-E3CD-4A4C-A03F-BF93B525459E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C62991FB-9DF6-4287-A653-EA6711B2012C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C62991FB-9DF6-4287-A653-EA6711B2012C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C62991FB-9DF6-4287-A653-EA6711B2012C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C62991FB-9DF6-4287-A653-EA6711B2012C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC8835C-32DF-4F2E-9FE6-7CE66FE8A88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC8835C-32DF-4F2E-9FE6-7CE66FE8A88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC8835C-32DF-4F2E-9FE6-7CE66FE8A88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC8835C-32DF-4F2E-9FE6-7CE66FE8A88C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F2BBB8-0766-47D1-9AB6-E52291CCFBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F2BBB8-0766-47D1-9AB6-E52291CCFBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F2BBB8-0766-47D1-9AB6-E52291CCFBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F2BBB8-0766-47D1-9AB6-E52291CCFBCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C62991FB-9DF6-4287-A653-EA6711B2012C} = {C0CE82A3-5CF5-4725-B781-3A2F4890C6CE}
+		{EBC8835C-32DF-4F2E-9FE6-7CE66FE8A88C} = {C0CE82A3-5CF5-4725-B781-3A2F4890C6CE}
+		{E4F2BBB8-0766-47D1-9AB6-E52291CCFBCB} = {C0CE82A3-5CF5-4725-B781-3A2F4890C6CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7178543F-AD35-4A61-AA13-1154C555BDFD}
+	EndGlobalSection
+EndGlobal
